@@ -8,13 +8,9 @@ const AddTasks = ({agregarTarea}) => {
         
     }
 
-    const onSubmit = (event) => {
-        const envio = {
-            nombre: inputValue,
-            visto: false
-        }
+    const onSubmit = (event) => {        
         event.preventDefault();
-        agregarTarea(tareas => [...tareas, envio])
+        agregarTarea(inputValue)
     }
 
   return (
