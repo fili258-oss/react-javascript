@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 
 //import './App.css'
-import { ListadoApp } from './ListadoApp'
+import { ListadoApp } from './components/tasks/ListsTasts'
 
 function App() {
   //const [count, setCount] = useState(0)
